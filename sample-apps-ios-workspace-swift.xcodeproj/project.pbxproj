@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B0456FB2119927A002CCBC5 /* Sample Apps IOS Workspace Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample Apps IOS Workspace Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0456FB2119927A002CCBC5 /* sample-apps-ios-workspace-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-apps-ios-workspace-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0456FE2119927A002CCBC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B0457002119927A002CCBC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B0457032119927A002CCBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B0457052119927C002CCBC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B0457082119927C002CCBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B04570A2119927C002CCBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B04570F2119927C002CCBC5 /* Sample Apps IOS Workspace SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample Apps IOS Workspace SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B04570F2119927C002CCBC5 /* sample-apps-ios-workspace-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-apps-ios-workspace-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0457132119927C002CCBC5 /* Sample_Apps_IOS_Workspace_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Apps_IOS_Workspace_SwiftTests.swift; sourceTree = "<group>"; };
 		1B0457152119927C002CCBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B04571A2119927C002CCBC5 /* Sample Apps IOS Workspace SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample Apps IOS Workspace SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B04571A2119927C002CCBC5 /* sample-apps-ios-workspace-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-apps-ios-workspace-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B04571E2119927C002CCBC5 /* Sample_Apps_IOS_Workspace_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Apps_IOS_Workspace_SwiftUITests.swift; sourceTree = "<group>"; };
 		1B0457202119927C002CCBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		1B0456FC2119927A002CCBC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B0456FB2119927A002CCBC5 /* Sample Apps IOS Workspace Swift.app */,
-				1B04570F2119927C002CCBC5 /* Sample Apps IOS Workspace SwiftTests.xctest */,
-				1B04571A2119927C002CCBC5 /* Sample Apps IOS Workspace SwiftUITests.xctest */,
+				1B0456FB2119927A002CCBC5 /* sample-apps-ios-workspace-swift.app */,
+				1B04570F2119927C002CCBC5 /* sample-apps-ios-workspace-swiftTests.xctest */,
+				1B04571A2119927C002CCBC5 /* sample-apps-ios-workspace-swiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B0456FA2119927A002CCBC5 /* Sample Apps IOS Workspace Swift */ = {
+		1B0456FA2119927A002CCBC5 /* sample-apps-ios-workspace-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B0457232119927C002CCBC5 /* Build configuration list for PBXNativeTarget "Sample Apps IOS Workspace Swift" */;
+			buildConfigurationList = 1B0457232119927C002CCBC5 /* Build configuration list for PBXNativeTarget "sample-apps-ios-workspace-swift" */;
 			buildPhases = (
 				1B0456F72119927A002CCBC5 /* Sources */,
 				1B0456F82119927A002CCBC5 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "Sample Apps IOS Workspace Swift";
+			name = "sample-apps-ios-workspace-swift";
 			productName = "Sample Apps IOS Workspace Swift";
-			productReference = 1B0456FB2119927A002CCBC5 /* Sample Apps IOS Workspace Swift.app */;
+			productReference = 1B0456FB2119927A002CCBC5 /* sample-apps-ios-workspace-swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1B04570E2119927C002CCBC5 /* Sample Apps IOS Workspace SwiftTests */ = {
+		1B04570E2119927C002CCBC5 /* sample-apps-ios-workspace-swiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B0457262119927C002CCBC5 /* Build configuration list for PBXNativeTarget "Sample Apps IOS Workspace SwiftTests" */;
+			buildConfigurationList = 1B0457262119927C002CCBC5 /* Build configuration list for PBXNativeTarget "sample-apps-ios-workspace-swiftTests" */;
 			buildPhases = (
 				1B04570B2119927C002CCBC5 /* Sources */,
 				1B04570C2119927C002CCBC5 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				1B0457112119927C002CCBC5 /* PBXTargetDependency */,
 			);
-			name = "Sample Apps IOS Workspace SwiftTests";
+			name = "sample-apps-ios-workspace-swiftTests";
 			productName = "Sample Apps IOS Workspace SwiftTests";
-			productReference = 1B04570F2119927C002CCBC5 /* Sample Apps IOS Workspace SwiftTests.xctest */;
+			productReference = 1B04570F2119927C002CCBC5 /* sample-apps-ios-workspace-swiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1B0457192119927C002CCBC5 /* Sample Apps IOS Workspace SwiftUITests */ = {
+		1B0457192119927C002CCBC5 /* sample-apps-ios-workspace-swiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B0457292119927C002CCBC5 /* Build configuration list for PBXNativeTarget "Sample Apps IOS Workspace SwiftUITests" */;
+			buildConfigurationList = 1B0457292119927C002CCBC5 /* Build configuration list for PBXNativeTarget "sample-apps-ios-workspace-swiftUITests" */;
 			buildPhases = (
 				1B0457162119927C002CCBC5 /* Sources */,
 				1B0457172119927C002CCBC5 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				1B04571C2119927C002CCBC5 /* PBXTargetDependency */,
 			);
-			name = "Sample Apps IOS Workspace SwiftUITests";
+			name = "sample-apps-ios-workspace-swiftUITests";
 			productName = "Sample Apps IOS Workspace SwiftUITests";
-			productReference = 1B04571A2119927C002CCBC5 /* Sample Apps IOS Workspace SwiftUITests.xctest */;
+			productReference = 1B04571A2119927C002CCBC5 /* sample-apps-ios-workspace-swiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1B0456F62119927A002CCBC5 /* Build configuration list for PBXProject "Sample Apps IOS Workspace Swift" */;
+			buildConfigurationList = 1B0456F62119927A002CCBC5 /* Build configuration list for PBXProject "sample-apps-ios-workspace-swift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B0456FA2119927A002CCBC5 /* Sample Apps IOS Workspace Swift */,
-				1B04570E2119927C002CCBC5 /* Sample Apps IOS Workspace SwiftTests */,
-				1B0457192119927C002CCBC5 /* Sample Apps IOS Workspace SwiftUITests */,
+				1B0456FA2119927A002CCBC5 /* sample-apps-ios-workspace-swift */,
+				1B04570E2119927C002CCBC5 /* sample-apps-ios-workspace-swiftTests */,
+				1B0457192119927C002CCBC5 /* sample-apps-ios-workspace-swiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		1B0457112119927C002CCBC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B0456FA2119927A002CCBC5 /* Sample Apps IOS Workspace Swift */;
+			target = 1B0456FA2119927A002CCBC5 /* sample-apps-ios-workspace-swift */;
 			targetProxy = 1B0457102119927C002CCBC5 /* PBXContainerItemProxy */;
 		};
 		1B04571C2119927C002CCBC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1B0456FA2119927A002CCBC5 /* Sample Apps IOS Workspace Swift */;
+			target = 1B0456FA2119927A002CCBC5 /* sample-apps-ios-workspace-swift */;
 			targetProxy = 1B04571B2119927C002CCBC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample Apps IOS Workspace Swift.app/Sample Apps IOS Workspace Swift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample-apps-ios-workspace-swift.app/sample-apps-ios-workspace-swift";
 			};
 			name = Debug;
 		};
@@ -506,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample Apps IOS Workspace Swift.app/Sample Apps IOS Workspace Swift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample-apps-ios-workspace-swift.app/sample-apps-ios-workspace-swift";
 			};
 			name = Release;
 		};
@@ -553,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B0456F62119927A002CCBC5 /* Build configuration list for PBXProject "Sample Apps IOS Workspace Swift" */ = {
+		1B0456F62119927A002CCBC5 /* Build configuration list for PBXProject "sample-apps-ios-workspace-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B0457212119927C002CCBC5 /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B0457232119927C002CCBC5 /* Build configuration list for PBXNativeTarget "Sample Apps IOS Workspace Swift" */ = {
+		1B0457232119927C002CCBC5 /* Build configuration list for PBXNativeTarget "sample-apps-ios-workspace-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B0457242119927C002CCBC5 /* Debug */,
@@ -571,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B0457262119927C002CCBC5 /* Build configuration list for PBXNativeTarget "Sample Apps IOS Workspace SwiftTests" */ = {
+		1B0457262119927C002CCBC5 /* Build configuration list for PBXNativeTarget "sample-apps-ios-workspace-swiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B0457272119927C002CCBC5 /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B0457292119927C002CCBC5 /* Build configuration list for PBXNativeTarget "Sample Apps IOS Workspace SwiftUITests" */ = {
+		1B0457292119927C002CCBC5 /* Build configuration list for PBXNativeTarget "sample-apps-ios-workspace-swiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B04572A2119927C002CCBC5 /* Debug */,
