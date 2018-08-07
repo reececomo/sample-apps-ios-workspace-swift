@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		11D85E1EFE52E56A3ACE5481 /* Pods_sample_apps_ios_workspace_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6701A8E48A890C2B1F3169D2 /* Pods_sample_apps_ios_workspace_swift.framework */; };
+		1B02E9D621199A0500F7BFD8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B02E9D421199A0500F7BFD8 /* Interface.storyboard */; };
+		1B02E9D821199A0600F7BFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B02E9D721199A0600F7BFD8 /* Assets.xcassets */; };
+		1B02E9DF21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1B02E9DE21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B02E9E421199A0600F7BFD8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02E9E321199A0600F7BFD8 /* InterfaceController.swift */; };
+		1B02E9E621199A0600F7BFD8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02E9E521199A0600F7BFD8 /* ExtensionDelegate.swift */; };
+		1B02E9E821199A0600F7BFD8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02E9E721199A0600F7BFD8 /* NotificationController.swift */; };
+		1B02E9EA21199A0700F7BFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B02E9E921199A0700F7BFD8 /* Assets.xcassets */; };
+		1B02E9EF21199A0700F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1B02E9D221199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch.app */; };
 		1B0456FF2119927A002CCBC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0456FE2119927A002CCBC5 /* AppDelegate.swift */; };
 		1B0457012119927A002CCBC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0457002119927A002CCBC5 /* ViewController.swift */; };
 		1B0457042119927A002CCBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0457022119927A002CCBC5 /* Main.storyboard */; };
@@ -20,6 +28,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1B02E9E021199A0600F7BFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0456F32119927A002CCBC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B02E9DD21199A0600F7BFD8;
+			remoteInfo = "bitfall.sample-apps-ios-workspace-swift-watch Extension";
+		};
+		1B02E9ED21199A0700F7BFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0456F32119927A002CCBC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B02E9D121199A0500F7BFD8;
+			remoteInfo = "bitfall.sample-apps-ios-workspace-swift-watch";
+		};
 		1B0457102119927C002CCBC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B0456F32119927A002CCBC5 /* Project object */;
@@ -36,7 +58,43 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1B02E9F521199A0700F7BFD8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B02E9DF21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B02E9F721199A0700F7BFD8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1B02E9EF21199A0700F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1B02E9D221199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bitfall.sample-apps-ios-workspace-swift-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B02E9D521199A0500F7BFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1B02E9D721199A0600F7BFD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B02E9D921199A0600F7BFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B02E9DE21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bitfall.sample-apps-ios-workspace-swift-watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B02E9E321199A0600F7BFD8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1B02E9E521199A0600F7BFD8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1B02E9E721199A0600F7BFD8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1B02E9E921199A0700F7BFD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B02E9EB21199A0700F7BFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B02E9EC21199A0700F7BFD8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		1B0456FB2119927A002CCBC5 /* sample-apps-ios-workspace-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-apps-ios-workspace-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0456FE2119927A002CCBC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B0457002119927A002CCBC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +120,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1B02E9DB21199A0600F7BFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1B0456F82119927A002CCBC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,12 +154,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B02E9D321199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch */ = {
+			isa = PBXGroup;
+			children = (
+				1B02E9D421199A0500F7BFD8 /* Interface.storyboard */,
+				1B02E9D721199A0600F7BFD8 /* Assets.xcassets */,
+				1B02E9D921199A0600F7BFD8 /* Info.plist */,
+			);
+			path = "bitfall.sample-apps-ios-workspace-swift-watch";
+			sourceTree = "<group>";
+		};
+		1B02E9E221199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B02E9E321199A0600F7BFD8 /* InterfaceController.swift */,
+				1B02E9E521199A0600F7BFD8 /* ExtensionDelegate.swift */,
+				1B02E9E721199A0600F7BFD8 /* NotificationController.swift */,
+				1B02E9E921199A0700F7BFD8 /* Assets.xcassets */,
+				1B02E9EB21199A0700F7BFD8 /* Info.plist */,
+				1B02E9EC21199A0700F7BFD8 /* PushNotificationPayload.apns */,
+			);
+			path = "bitfall.sample-apps-ios-workspace-swift-watch Extension";
+			sourceTree = "<group>";
+		};
 		1B0456F22119927A002CCBC5 = {
 			isa = PBXGroup;
 			children = (
 				1B0456FD2119927A002CCBC5 /* Sample Apps IOS Workspace Swift */,
 				1B0457122119927C002CCBC5 /* Sample Apps IOS Workspace SwiftTests */,
 				1B04571D2119927C002CCBC5 /* Sample Apps IOS Workspace SwiftUITests */,
+				1B02E9D321199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch */,
+				1B02E9E221199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension */,
 				1B0456FC2119927A002CCBC5 /* Products */,
 				AEAC45A54B8F2A877685F86A /* Pods */,
 				3B2CE1F81F79F2773A9EF28F /* Frameworks */,
@@ -107,6 +197,8 @@
 				1B0456FB2119927A002CCBC5 /* sample-apps-ios-workspace-swift.app */,
 				1B04570F2119927C002CCBC5 /* sample-apps-ios-workspace-swiftTests.xctest */,
 				1B04571A2119927C002CCBC5 /* sample-apps-ios-workspace-swiftUITests.xctest */,
+				1B02E9D221199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch.app */,
+				1B02E9DE21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +260,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1B02E9D121199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B02E9F621199A0700F7BFD8 /* Build configuration list for PBXNativeTarget "bitfall.sample-apps-ios-workspace-swift-watch" */;
+			buildPhases = (
+				1B02E9D021199A0500F7BFD8 /* Resources */,
+				1B02E9F521199A0700F7BFD8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B02E9E121199A0600F7BFD8 /* PBXTargetDependency */,
+			);
+			name = "bitfall.sample-apps-ios-workspace-swift-watch";
+			productName = "bitfall.sample-apps-ios-workspace-swift-watch";
+			productReference = 1B02E9D221199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1B02E9DD21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B02E9F421199A0700F7BFD8 /* Build configuration list for PBXNativeTarget "bitfall.sample-apps-ios-workspace-swift-watch Extension" */;
+			buildPhases = (
+				1B02E9DA21199A0600F7BFD8 /* Sources */,
+				1B02E9DB21199A0600F7BFD8 /* Frameworks */,
+				1B02E9DC21199A0600F7BFD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bitfall.sample-apps-ios-workspace-swift-watch Extension";
+			productName = "bitfall.sample-apps-ios-workspace-swift-watch Extension";
+			productReference = 1B02E9DE21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		1B0456FA2119927A002CCBC5 /* sample-apps-ios-workspace-swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B0457232119927C002CCBC5 /* Build configuration list for PBXNativeTarget "sample-apps-ios-workspace-swift" */;
@@ -177,10 +303,12 @@
 				1B0456F82119927A002CCBC5 /* Frameworks */,
 				1B0456F92119927A002CCBC5 /* Resources */,
 				075E1AC888F1B6E6F2EB74BD /* [CP] Embed Pods Frameworks */,
+				1B02E9F721199A0700F7BFD8 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1B02E9EE21199A0700F7BFD8 /* PBXTargetDependency */,
 			);
 			name = "sample-apps-ios-workspace-swift";
 			productName = "Sample Apps IOS Workspace Swift";
@@ -237,6 +365,12 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Bitfall;
 				TargetAttributes = {
+					1B02E9D121199A0500F7BFD8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1B02E9DD21199A0600F7BFD8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					1B0456FA2119927A002CCBC5 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -266,11 +400,30 @@
 				1B0456FA2119927A002CCBC5 /* sample-apps-ios-workspace-swift */,
 				1B04570E2119927C002CCBC5 /* sample-apps-ios-workspace-swiftTests */,
 				1B0457192119927C002CCBC5 /* sample-apps-ios-workspace-swiftUITests */,
+				1B02E9D121199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch */,
+				1B02E9DD21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1B02E9D021199A0500F7BFD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B02E9D821199A0600F7BFD8 /* Assets.xcassets in Resources */,
+				1B02E9D621199A0500F7BFD8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B02E9DC21199A0600F7BFD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B02E9EA21199A0700F7BFD8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1B0456F92119927A002CCBC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,6 +562,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1B02E9DA21199A0600F7BFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B02E9E821199A0600F7BFD8 /* NotificationController.swift in Sources */,
+				1B02E9E621199A0600F7BFD8 /* ExtensionDelegate.swift in Sources */,
+				1B02E9E421199A0600F7BFD8 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1B0456F72119927A002CCBC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -437,6 +600,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1B02E9E121199A0600F7BFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B02E9DD21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension */;
+			targetProxy = 1B02E9E021199A0600F7BFD8 /* PBXContainerItemProxy */;
+		};
+		1B02E9EE21199A0700F7BFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B02E9D121199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch */;
+			targetProxy = 1B02E9ED21199A0700F7BFD8 /* PBXContainerItemProxy */;
+		};
 		1B0457112119927C002CCBC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1B0456FA2119927A002CCBC5 /* sample-apps-ios-workspace-swift */;
@@ -450,6 +623,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1B02E9D421199A0500F7BFD8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B02E9D521199A0500F7BFD8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		1B0457022119927A002CCBC5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -469,6 +650,94 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1B02E9F021199A0700F7BFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bitrise Bot (VV2J4SV8V4)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				IBSC_MODULE = bitfall_sample_apps_ios_workspace_swift_watch_Extension;
+				INFOPLIST_FILE = "bitfall.sample-apps-ios-workspace-swift-watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "df3ffa02-44e3-4b50-bd8f-f5a7ba018077";
+				PROVISIONING_PROFILE_SPECIFIER = "Sample Apps IOS Workspace Swift Watch_dev";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		1B02E9F121199A0700F7BFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BITFALL FEJLESZTO KORLATOLT FELELOSSEGU TARSASAG (72SA8V3WYL)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				IBSC_MODULE = bitfall_sample_apps_ios_workspace_swift_watch_Extension;
+				INFOPLIST_FILE = "bitfall.sample-apps-ios-workspace-swift-watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "66f82bb6-cee3-460d-a668-d9d9c9da2464";
+				PROVISIONING_PROFILE_SPECIFIER = "Sample Apps IOS Workspace Swift Watch_app_store";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		1B02E9F221199A0700F7BFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				INFOPLIST_FILE = "bitfall.sample-apps-ios-workspace-swift-watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		1B02E9F321199A0700F7BFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				INFOPLIST_FILE = "bitfall.sample-apps-ios-workspace-swift-watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
 		1B0457212119927C002CCBC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -716,6 +985,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B02E9F421199A0700F7BFD8 /* Build configuration list for PBXNativeTarget "bitfall.sample-apps-ios-workspace-swift-watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B02E9F221199A0700F7BFD8 /* Debug */,
+				1B02E9F321199A0700F7BFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B02E9F621199A0700F7BFD8 /* Build configuration list for PBXNativeTarget "bitfall.sample-apps-ios-workspace-swift-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B02E9F021199A0700F7BFD8 /* Debug */,
+				1B02E9F121199A0700F7BFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1B0456F62119927A002CCBC5 /* Build configuration list for PBXProject "sample-apps-ios-workspace-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
